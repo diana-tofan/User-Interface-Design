@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  font-family: "Open Sans", "sans-serif";
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+}
+
+
+.content {
+  display: flex;
+  flex: 1;
+  background: white;
+}
+
+.leftSidebar {
+  background: #10625e;
+  width: 100px;
+}
+
+.rightArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.calendar {
+  width: calc(100% - 100px);
+}
+
+.menuItem, menuItem:hover {
+  height: calc(492px / 5);
+  line-height: 6;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.menuItem:hover {
+  background: teal;
+}
+
+
+.selected {
+  background: teal;
+}

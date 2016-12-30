@@ -1,0 +1,76 @@
+.tableRow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.tableRow.header {
+  background-color: #1aa7a3;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 17px;
+  color: white;
+}
+
+.tableRow:hover {
+  background: rgba(218, 218, 218, 0.38);
+  cursor: pointer;
+}
+
+.text {
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 150px;
+  text-align: center;
+}
+
+.num {
+  width: 150px;
+  text-align: center;
+}
+
+.postedColumn {
+  width: 120px;
+}
+
+.courseColumn {
+  width: 200px;
+}
+
+.assignmentColumn {
+  width: 150px;
+}
+
+.scoreColumn {
+  width: 100px;
+}
+
+.totalColumn {
+  width: 100px;
+}
+
+.statusColumn {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerFluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 35px 10px;
+}
+
+.checkmark {
+  color: #23CF5F;
+}

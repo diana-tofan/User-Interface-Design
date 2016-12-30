@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.footer {
+  height: 60px;
+  background: lightgray;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  line-height: 60px;
+}
