@@ -1,4 +1,5 @@
 import React from 'react';
+import App from './App';
 import styles from '../styles/Login.css';
 
 export default class Login extends React.Component {
@@ -18,8 +19,9 @@ export default class Login extends React.Component {
     const password = this.refs.password.value;
     users.forEach(user => {
         if (username === user.username && password === user.password) {
-          this.state.error = null;
-          this.context.router.push('/');
+            this.state.error = null;
+            this.context.router.push('/');
+          return <App />
         }
         else {
           this.setState({
@@ -33,7 +35,9 @@ export default class Login extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <div className={styles.title}>Student Portal</div>
+        <div className={styles.title}>
+          <i className={`fa fa-graduation-cap fa-lg ${styles.logo}`} />
+          Student Portal</div>
         <form onSubmit={this.handleSubmit}>
           <input type="text" className={styles.input} placeholder="Username" ref="username"/><br/>
           <input type="text" className={styles.input} placeholder="Password" ref="password"/><br/>

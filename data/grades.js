@@ -6,7 +6,8 @@ const grades =
       "assignment": "Semester Project",
       "score": "95",
       "total": "100",
-      "status": "Passed"
+      "status": "Passed",
+      "date": "2017-01-11 00:00:00 -0800",
     },
     {
       "posted": "2 days ago",
@@ -14,7 +15,8 @@ const grades =
       "assignment": "Exam",
       "score": "81",
       "total": "100",
-      "status": "Passed"
+      "status": "Passed",
+      "date": "2017-01-09 00:00:00 -0800",
     },
     {
       "posted": "3 days ago",
@@ -22,7 +24,8 @@ const grades =
       "assignment": "Project 1",
       "score": "88",
       "total": "100",
-      "status": "Passed"
+      "status": "Passed",
+      "date": "2017-01-08 00:00:00 -0800",
     },
     {
       "posted": "1 week ago",
@@ -30,7 +33,8 @@ const grades =
       "assignment": "Exam",
       "score": "50",
       "total": "100",
-      "status": "Passed"
+      "status": "Passed",
+      "date": "2017-01-04 00:00:00 -0800",
     },
     {
       "posted": "1 week ago",
@@ -38,7 +42,8 @@ const grades =
       "assignment": "Lab Test",
       "score": "71",
       "total": "100",
-      "status": "Passed"
+      "status": "Passed",
+      "date": "2017-01-05 00:00:00 -0800",
     },
     {
       "posted": "2 weeks ago",
@@ -46,7 +51,8 @@ const grades =
       "assignment": "Semester Project",
       "score": "80",
       "total": "100",
-      "status": "Passed"
+      "status": "Passed",
+      "date": "2016-12-23 00:00:00 -0800",
     },
     {
       "posted": "1 month ago",
@@ -54,7 +60,8 @@ const grades =
       "assignment": "Exam",
       "score": "40",
       "total": "100",
-      "status": "Failed"
+      "status": "Failed",
+      "date": "2016-11-20 00:00:00 -0800",
     },
     {
       "posted": "3 months ago",
@@ -62,6 +69,16 @@ const grades =
       "assignment": "Lab Test",
       "score": "68",
       "total": "100",
-      "status": "Passed"
+      "status": "Passed",
+      "date": "2016-10-15 00:00:00 -0800",
+    },
+    {
+      "posted": "4 months ago",
+      "course": "Digital Circuits",
+      "assignment": "Exam",
+      "score": "0",
+      "total": "100",
+      "status": "Absent",
+      "date": "2016-10-7 00:00:00 -0800",
     }
   ];

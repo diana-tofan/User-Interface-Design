@@ -1,0 +1,66 @@
+.teacherColumn {
+  width: 200px;
+}
+
+.eventColumn {
+  width: 200px;
+}
+
+.timeColumn {
+  width: 200px;
+}
+
+.attendanceColumn {
+  width: 200px;
+}
+
+.tableRow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  padding: 8px 15px;
+  width: 100%;
+  background-color: #1aa7a3;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+}
+
+.tableRow:hover {
+  background: rgba(218, 218, 218, 0.38);
+  cursor: pointer;
+}
+
+.containerFluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 35px 10px;
+}
+
+.percentage {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  margin-left: 15px;
+}
+
+.userIcon {
+  line-height: 46px;
+  color: teal;
+}

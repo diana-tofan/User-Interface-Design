@@ -58,3 +58,102 @@ body {
 .selected {
   background: teal;
 }
+
+.partition {
+  width: 100%;
+  height: calc(100% - 170px);
+  display: flex;
+  flex-direction: row;
+}
+
+.firstHalf {
+  width: calc((100% - 251px) / 2);
+  height: 100%;
+}
+
+.secondHalf {
+  width: calc((100% - 251px) / 2);
+  height: 100%;
+  border-left: solid 1px lightgray;
+}
+
+.thirdHalf {
+  width: 251px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: solid 1px lightgray;
+}
+
+.eventsToday {
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.textInput, .selectedInput {
+  width: 60%;
+  font-size: 16px;
+  font-family: 'Open-Sans', sans-serif;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px lightgray;
+}
+
+.textInput {
+  border-bottom: solid 1px lightgray;
+}
+
+.selectedInput {
+  border-bottom: solid 1px #1aa7a3;
+}
+
+.infoLabel {
+  width: 30%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.saveButton, .saveButton:hover {
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.saveButton {
+  background: #1aa7a3;
+}
+
+.saveButton:hover {
+  background: teal;
+}
+
+.eventsToday {
+  list-style: none;
+}

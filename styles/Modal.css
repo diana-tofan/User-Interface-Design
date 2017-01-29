@@ -1,0 +1,181 @@
+.closeIcon {
+  color: #00796B;
+  cursor: pointer;
+  float: right;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+button {
+  outline: none;
+}
+
+.closeIcon:hover {
+  color: black;
+  cursor: pointer;
+  text-align: right;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.cancelButton {
+  background: #535353;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 3%;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  background: #6a6a6a;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background: #00796B;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background: #009688;
+  cursor: pointer;
+}
+
+.updateButton {
+  background: #00796B;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.updateButton:hover {
+  background: #009688;
+  cursor: pointer;
+}
+
+.eventTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dates {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.buttonGroup {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.addButton {
+  background: #00796B;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background: #009688;
+  cursor: pointer;
+}
+
+.formContent {
+  margin-top: 35px;
+}
+
+.input {
+  border: solid 1px gray;
+  margin: 5px;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.confirm-button {
+  background: #00796B;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 1%;
+}
+
+.confirm-button:hover {
+  background: #009688;
+}
+
+.cancel-button, .confirm-button {
+  float: right;
+  outline: none;
+}
+
+.modal-header {
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  line-height: 25px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  marginRight: -50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  overflow: auto;
+  border: 1px solid #ccc;
+  outline: 0;
+  padding: 20px;
+  border-radius: 4px;
+  WebkitOverflowScrolling: 'touch';
+  z-index: 9999;
+  width: 25%;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 9998;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.slider {
+  margin: 45px 0;
+}
